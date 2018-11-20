@@ -14,7 +14,7 @@ CREATE TABLE channel_names ( cid int unsigned not null auto_increment, cname var
 CREATE TABLE channel_type ( ctid int unsigned not null auto_increment, ctname varchar(255) not null,  primary key (ctid) );
 ```
 
-## USAGE
+## How to use
 * **You need a valid google account to use the utility**
 * Click on *login* link at the right-top of the page
 * Put *username* and *password* in the input fields
