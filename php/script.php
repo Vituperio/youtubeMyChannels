@@ -2,9 +2,9 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-  $server = 'localhost';
-  $user = 'root';
-  $passwd = 'fabio84';
+  $server = '';
+  $user = '';
+  $passwd = '';
   $dbname = 'youtubeMyChannels';
 
   $conn = mysqli_connect($server, $user, $passwd, $dbname);
@@ -16,7 +16,7 @@ ini_set('display_errors', 1);
     $func = $_POST['func'];
     switch($func){
       case 'getAllChannels':
-        $query = "SELECT * FROM channel_names WHERE ctype = (SELECT ctid FROM channel_type WHERE ctname = 'game') ORDER BY cname ASC";
+        $query = "SELECT * FROM channel_names WHERE ctype = (SELECT ctid FROM channel_type WHERE ctid = 1) ORDER BY cname ASC";
         $result = mysqli_query($conn, $query);
         $channels = array();
         while($row = mysqli_fetch_assoc($result)){

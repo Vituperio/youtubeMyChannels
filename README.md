@@ -15,17 +15,10 @@ CREATE TABLE channel_type ( ctid int unsigned not null auto_increment, ctname va
 ```
 
 ## USAGE
-You need a valid google account to use the utility.
-
-Click on login link at the right-top of the page.
-
-Put username and password in the fields.
-
-
-Create the type to associate with the channel by Aggiungi > + Categoria item menu;
-
-Copy the channel's name from youtube;
-
-Create the channel by clicking on Aggiungi > + Canale; put name and type of the channel in the input fields;
-
-Reload homepage to see result.
+* **You need a valid google account to use the utility**
+* Click on *login* link at the right-top of the page
+* Put *username* and *password* in the input fields
+* Create the type to associate with the channel by *Aggiungi > + Categoria* item menu
+* Copy the channel's name from youtube
+* Create the channel by clicking on *Aggiungi > + Canale* item menu
+* Reload homepage to see result
