@@ -7,20 +7,19 @@ YoutubeMychannels is a collector of yours favorite youtube channels.
 ```git
 git clone https://github.com/FB-Devel/youtubeMyChannels.git
 ```
-## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```mysql
+CREATE DATABASE youtubeMyChannels;
+CREATE TABLE channel_names ( cid int unsigned not null auto_increment, cname varchar(255) not null, ctype varchar(255) not null, primary key (cid) );
+CREATE TABLE channel_type ( ctid int unsigned not null auto_increment, ctname varchar(255) not null,  primary key (ctid) );
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## USAGE
+You need a valid google account to use the utility.
+Click on login link at the right-top of the page.
+Put username and password in the fields.
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Create the type to associate with the channel by Aggiungi > + Categoria item menu;
+Copy the channel's name from youtube;
+Create the channel by clicking on Aggiungi > + Canale; put name and type of the channel in the input fields;
+Reload homepage to see result.
