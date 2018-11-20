@@ -14,12 +14,14 @@ CREATE TABLE channel_names ( cid int unsigned not null auto_increment, cname var
 CREATE TABLE channel_type ( ctid int unsigned not null auto_increment, ctname varchar(255) not null,  primary key (ctid) );
 ```
 
-Insert database parameters in **php/script.php** file
+
+Insert database parameters in **php/script.php** file:
 ```php
 $server = '';
 $user = '';
 $passwd = '';
 ```
+
 
 ## How to use
 * **You need a valid google account to use the utility**
