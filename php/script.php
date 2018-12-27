@@ -2,9 +2,9 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-  $server = '';
-  $user = '';
-  $passwd = '';
+  $server = 'localhost';
+  $user = 'root';
+  $passwd = 'fabio84';
   $dbname = 'youtubeMyChannels';
 
   $conn = mysqli_connect($server, $user, $passwd, $dbname);
@@ -46,7 +46,7 @@ ini_set('display_errors', 1);
       case 'addChannel':
         $channelName = $_POST['channelName'];
         $channelId = $_POST['channelType'];
-        $query = "INSERT INTO channel_names VALUES (NULL, '$channelName', '$channelId')";
+        $query = "INSERT INTO channel_names VALUES (NULL, \"$channelName\", $channelId)";
         if(mysqli_query($conn, $query)){
             echo "Channel saved successfully";
         } else {

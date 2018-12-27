@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-   
+
     <nav class="navbar">
       <ul class="nav navbar-nav">
         <li><a href="/youtubeMyChannels">Home</a></li>
@@ -56,7 +56,7 @@
             ?>
           </ul>
         </li>
-         
+
       </ul>
       <div id="query-wrap">
         <input class="form-control" id="query" type="text"/> <button id="search-button" class="btn btn-primary" disabled onclick="search();"><span class="glyphicon glyphicon-search"></span></button>
