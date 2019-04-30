@@ -23,6 +23,7 @@ body{
 
 nav.navbar{
   position: fixed;
+  z-index: 99;
   top:  0;
   width:  100%;
   background-color:  white;
@@ -214,4 +215,37 @@ span.video-duration{
   #query{
     width: 200px;
   }
+}
+
+.game{background-color: #007eff;}
+.animals{background-color: #ec4444;}
+.faidate{background-color: #5dd255;}
+
+#accordion h3{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#accordion h3.ui-state-hover,
+#accordion h3.ui-state-focus,
+#accordion h3.ui-state-active{
+  background: white;
+  color: black !important;
+}
+
+#accordion ul li{
+  list-style: none;
+}
+
+#accordion ul li a{
+  font-family: 'Bangers';
+  font-size:  14px;
+  display: inline-block;
+  text-align: center;
+  color: black;
+}
+
+#accordion ul li a:hover{
+  text-decoration: none;
+  color: #337ab7;
 }

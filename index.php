@@ -25,7 +25,8 @@
 
     <nav class="navbar">
       <ul class="nav navbar-nav">
-        <li><a href="/youtubeMyChannels">Home</a></li>
+        <li><a href="/youtubeMyChannels/index.php">Home</a></li>
+        <li><a href="/youtubeMyChannels/index-new.php">Alternative</a></li>
         <li class='dropdown'>
           <a href='#' class="dropdown-toggle" data-toggle="dropdown">Aggiungi <span class='caret'></span></a>
           <ul class="dropdown-menu">
@@ -64,7 +65,7 @@
       </div>
       <a id="login-link">Login</a>
     </nav>
-    <br>
+    <br><br>
     <div id="channels-container"></div>
     <div id='load'><img src='load.gif' /></div>
   </body>
